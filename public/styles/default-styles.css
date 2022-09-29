@@ -138,6 +138,11 @@ main {
   color: rgb(0, 183, 94);
 }
 
+/* Side Image Profile Pic */
+.Jumbotron-infoPanel-sideImage {
+  content: url("../images/profile-pic.jpg");
+}
+
 /* Footer Styles */
 .footer {
   height: 35px;
