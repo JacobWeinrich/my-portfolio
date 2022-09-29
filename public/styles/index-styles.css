@@ -1,0 +1,115 @@
+/* based off Break Point 450 */
+
+.section-Contact {
+  /* Sizing */
+  width: 85%;
+  height: 200px;
+
+  /* Border */
+  border-radius: 50px;
+
+  /* Box Shadow */
+  box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+  -webkit-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+  -moz-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+
+  /* Background - Color */
+  background-color: rgba(0, 0, 0, 0.862);
+  background-blend-mode: color-burn;
+
+  /* Background - Image */
+  background-image: url("../images/steel-texture.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.contact-icon {
+  font-size: 100px;
+}
+
+@media only screen and (min-width: 750px) {
+  .section-Contact {
+    /* Sizing */
+    width: 60%;
+    height: 200px;
+
+    /* Border */
+    border-radius: 50px;
+
+    /* Box Shadow */
+    box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -webkit-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -moz-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+
+    /* Background - Color */
+    background-color: rgba(0, 0, 0, 0.862);
+    background-blend-mode: color-burn;
+
+    /* Background - Image */
+    background-image: url("../images/steel-texture.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-icon {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .section-Contact {
+    /* Sizing */
+    width: 40%;
+    height: 200px;
+
+    /* Border */
+    border-radius: 50px;
+
+    /* Box Shadow */
+    box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -webkit-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -moz-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+
+    /* Background - Color */
+    background-color: rgba(0, 0, 0, 0.862);
+    background-blend-mode: color-burn;
+
+    /* Background - Image */
+    background-image: url("../images/steel-texture.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-icon {
+    font-size: 150px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .section-Contact {
+    /* Sizing */
+    width: 40%;
+    height: 200px;
+
+    /* Border */
+    border-radius: 50px;
+
+    /* Box Shadow */
+    box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -webkit-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+    -moz-box-shadow: -1px -1px 25px rgba(3, 125, 36, 0.75);
+
+    /* Background - Color */
+    background-color: rgba(0, 0, 0, 0.862);
+    background-blend-mode: color-burn;
+
+    /* Background - Image */
+    background-image: url("../images/steel-texture.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+
+  .contact-icon {
+    font-size: 150px;
+  }
+}

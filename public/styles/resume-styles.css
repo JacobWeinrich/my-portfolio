@@ -1,0 +1,23 @@
+iframe {
+  /* Resume IFrame Sizing */
+  width: 95%;
+  height: 80vh;
+
+  /* Resume Iframe Margin */
+  margin: 10px;
+}
+
+/* Download Resume Link - Coloring and Sizing */
+#Download-Resume-link {
+  /* Font Color */
+  color: rgb(0, 255, 153);
+
+  /* Sizing */
+  font-size: 20px;
+}
+
+/* Download Resume Link - Hover and Focus */
+#Download-Resume-link:hover,
+#Download-Resume-link:focus {
+  color: rgb(0, 183, 94);
+}
