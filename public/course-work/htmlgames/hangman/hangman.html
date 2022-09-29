@@ -27,15 +27,18 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li><a class="nav-link text-info active" aria-current="page" href="../index.html">Home</a></li>
+                    <li><a class="nav-link text-warning" href="../../../index.html">Back To Portfolio</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Games
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Games
                         </a>
                         <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="hangman.html">HangMan</a></li>
-                          <li><a class="dropdown-item" href="../tic-tac-toe/tic-tac-toe.html">TicTacToe</a></li>
+                            <li><a class="dropdown-item" href="hangman.html">HangMan</a></li>
+                            <li><a class="dropdown-item" href="../tic-tac-toe/tic-tac-toe.html">TicTacToe</a></li>\
+
                         </ul>
-                      </li>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -49,7 +52,8 @@
         <h3 id="usedLetters-txt">Letters Used:</h3>
         <h3 id="wrong-txt">Wrong Answers: 0 out of 9</h3>
         <div class="input">
-            <input onkeypress="return /[a-z\s]/i.test(event.key)" id="input-box" type="text" placeholder="Custom Word Input">
+            <input onkeypress="return /[a-z\s]/i.test(event.key)" id="input-box" type="text"
+                placeholder="Custom Word Input">
             <button type="button" id="submit-btn">Submit</button>
             <button type="button" id="random-btn">Random</button>
         </div>
