@@ -1,0 +1,52 @@
+.logo-LDR {
+    content: url("../images/law-day-run-logo.png");
+}
+.logo-LDR-brand {
+    content: url("../images/law-day-run-logo-brand.png");
+}
+
+/* Main is used for the outer part of the page the sides */
+main {
+    /* Background Color */
+    background-color: rgba(0, 0, 0, 0.435);
+    /* Background Image */
+    background-image: url("../images/background-textures/black-top-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-blend-mode: color-burn;
+}
+
+/* Inner Part of the Main Section */
+#wrapper {
+    /* Background Color */
+    background-color: rgba(22, 24, 27, 0.943);
+    /* Text Settings */
+    color: #fff;
+}
+
+.text-shadow-1 {
+    text-shadow: 0px 2px 12px rgba(0,0,0,1);
+}
+
+h2 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.yellow-text{
+     color: gold;
+}
+.grey-text {
+    color: rgb(188, 188, 188);
+} 
+.green-text {
+   
+    color: rgb(0, 146, 56);
+}
+
+.company-name {
+    background-color: rgb(69, 69, 69);
+    border: black 3px dashed;
+    border-radius: 20px;
+    width: fit-content;
+}
+
