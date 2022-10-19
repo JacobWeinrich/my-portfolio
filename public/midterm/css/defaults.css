@@ -1,8 +1,24 @@
 .logo-LDR {
-    content: url("../images/law-day-run-logo.png");
+    content: url("../images/law-day-run-logo-lg.png");
 }
 .logo-LDR-brand {
     content: url("../images/law-day-run-logo-brand.png");
+}
+
+.background-img-1 {
+    height: 100vh;
+    background-image: url("../images/background-images/1.jpg");
+    background-size: 100% 100%;
+}
+.background-img-2 {
+    height: 100vh;
+    background-image: url("../images/background-images/2.jpg");
+    background-size: 100% 100%;
+}
+
+
+header {
+    background-color: rgb(40, 40, 40);
 }
 
 /* Main is used for the outer part of the page the sides */
@@ -25,24 +41,43 @@ main {
 }
 
 .text-shadow-1 {
-    text-shadow: 0px 2px 12px rgba(0,0,0,1);
+    text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
 }
 
 h2 {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    font-family: 'Satisfy', cursive;
 }
 
 .yellow-text{
      color: gold;
 }
+.bronze-text{
+    color: rgb(215, 140, 0);
+}
 .grey-text {
     color: rgb(188, 188, 188);
+} 
+.silver-text {
+    color: rgb(199, 199, 199);
 } 
 .green-text {
    
     color: rgb(0, 146, 56);
 }
+.lime-text {
+   
+    color: rgb(6, 224, 90);
+}
 
+.white-text {
+   
+    color: #fff;
+}
+
+.blue-text {
+   
+    color: rgb(78, 128, 229);
+}
 .company-name {
     background-color: rgb(69, 69, 69);
     border: black 3px dashed;
@@ -50,3 +85,21 @@ h2 {
     width: fit-content;
 }
 
+.facebook-Link  {
+    text-decoration: none;
+}
+.facebook-Link:hover  {
+    color: rgb(73, 203, 95);
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+}
+
+.display-7 {
+    font-size: 1.5rem;
+}
+
+.link-info {
+    text-decoration: none;
+}
