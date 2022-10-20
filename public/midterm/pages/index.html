@@ -16,8 +16,8 @@
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lora&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Satisfy&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/7e16d7e25e.js" crossorigin="anonymous"></script>
@@ -72,10 +72,10 @@
                             </a>
                             <!-- Drop Down Menu -->
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Register</a></li>
-                                <li><a class="dropdown-item" href="#">Race Results</a></li>
+                                <li><a class="dropdown-item" target="_blank" href="https://lawday5k.itsyourrace.com/register/">Register</a></li>
+                                <li><a class="dropdown-item"  href="race-results.html">Race Results</a></li>
                                 <li><a class="dropdown-item" href="photos.html">Photos</a></li>
-                                <li><a class="dropdown-item" href="#">Maps</a></li>
+                                <li><a class="dropdown-item" href="maps.html">Maps</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -85,6 +85,28 @@
     </header>
     <main>
         <div id="wrapper" class="min-vh-100 container p-3 text-center">
+            <div class="starting-soon text-center d-flex flex-column mb-5">
+                <h2 class="display-6 bronze-text">Time Till Marathon Day</h2>
+                <div class="d-flex justify-content-center">
+                    <div class="container-day mx-5">
+                        <h3 class="display-5 lime-text" id="days-counter">Time</h3>
+                        <h3 class="display-6 yellow-text">Days</h3>
+                    </div>
+                    <div class="container-hours mx-5">
+                        <h3 class="display-5 lime-text" id="hours-counter">Time</h3>
+                        <h3 class="display-6 yellow-text">Hours</h3>
+                    </div>
+                    <div class="container-minutes mx-5">
+                        <h3 class="display-5 lime-text" id="minutes-counter">Time</h3>
+                        <h3 class="display-6 yellow-text">Minutes</h3>
+                    </div>
+                    <div class="container-seconds mx-5">
+                        <h3 class="display-5 lime-text" id="seconds-counter">Time</h3>
+                        <h3 class="display-6 yellow-text">Seconds</h3>
+                    </div>
+                </div>
+            </div>
+
             <!-- Carousel 1 Start-->
             <div id="carouselExampleIndicators" class="carousel slide text-center" data-bs-ride="true">
 
@@ -125,7 +147,8 @@
                     <h2 class="display-3 text-shadow-1">Law Day Run</h2>
                     <h2 class="display-3 text-shadow-1">April <span
                             class="yellow-text">29<sup><small>th</small></sup></span> <span
-                            class="lime-text">2023</span></h2>
+                            class="lime-text">2023</span>
+                    </h2>
                     <a href="https://lawday5k.itsyourrace.com/register/" target="_blank"
                         class="fw-bold btn btn-lg btn-warning"><span class="material-symbols-outlined">
                             directions_run
@@ -195,7 +218,8 @@
                         href="https://www.facebook.com/bellevillerunningclub/">Belleville Running Club</a>
                     <hr>
                     <a target="_blank" class="facebook-Link white-text display-6"
-                        href="http://stclairbar.com/">Belleville Bar
+                        href="http://stclairbar.com/">Belleville
+                        Bar
                         Association</a>
                 </div>
             </div>
@@ -223,7 +247,11 @@
         <a target="_blank" href="https://www.facebook.com/LawDayRun/" class="display-1"><i
                 class="fa-brands fa-facebook"></i></a>
         <p>20th Annual St. Clair County Law Day Run</p>
+        <p>Website Designed By: Jacob Weinrich</p>
     </footer>
+
+    <!-- CountDown JS Script -->
+    <script src="../js/countdown.js"></script>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
